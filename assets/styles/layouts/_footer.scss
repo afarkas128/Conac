@@ -1,0 +1,40 @@
+.main-footer {
+
+    .contact-heading {
+        color: #AE8F63;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 2.67px;
+        line-height: 19px;
+    }
+
+    .list-inline-item:not(:last-child) {
+        margin-right: 15px
+    }
+        li {
+            font-size: 9px;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            line-height: 12px;
+        }
+        a {
+            color: #AE8F63;
+        }
+}
+
+
+.footer-bottom {
+    .list-inline-item:not(:last-child) {
+        margin-right: 20px;
+    }
+    
+    li {
+        margin-right: 20px;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        line-height: 16px;
+    }
+
+
+}

@@ -1,0 +1,23 @@
+{
+  "name": "webgurus-html-devkit",
+  "homepage": "https://gurulabs.io/html-devkit/",
+  "authors": [
+    "Gergely Marton <guru@gurulabs.io>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.4",
+    "bootstrap": "^4.0.0",
+    "owl.carousel": "^2.3.4"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "./scss/bootstrap.scss",
+        "./dist/js/bootstrap.min.js"
+      ]
+    }
+  }
+}

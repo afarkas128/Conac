@@ -1,0 +1,22 @@
+@import "sections/despre";
+@import "sections/podgorie";
+@import "sections/reviews";
+@import "sections/evenimente";
+
+/* Restaurant slider button */
+.owl-item {
+
+    .btn-casa-timis {
+        margin-top: -25px;
+    }
+
+}
+
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #AE8F63;
+}
+
+.owl-theme .owl-dots .owl-dot:focus {
+    outline-color: #fff;
+}
