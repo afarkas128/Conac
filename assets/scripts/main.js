@@ -20,7 +20,7 @@
       init: function() {
         // JavaScript to be fired on all pages
         $(".photo-carousel").owlCarousel({
-          // stagePadding: 150,
+          stagePadding: 150,
           loop: true,
           center: true,
           margin: 50,
