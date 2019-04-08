@@ -1,0 +1,22 @@
+
+.contact {
+    .form-group input, .form-group textarea {
+        background-color: #fff;
+        color: #778286;
+        font-size: 12px;
+        font-weight: normal;
+    }
+    
+    .form-group {
+        color: #778286;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 16px;
+    }
+
+    /* textarea height on contact form*/
+    #contact_textarea {
+        height: 160px;
+    }
+
+}
