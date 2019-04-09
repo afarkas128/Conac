@@ -9,14 +9,15 @@
 /* Restaurant slider button */
 .owl-item {
 
-    .btn-casa-timis {
+    .btn-primary {
         margin-top: -25px;
     }
 
 }
 
 
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
     background: #AE8F63 !important;
 }
 
