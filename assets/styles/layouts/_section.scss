@@ -20,6 +20,21 @@
     background: #AE8F63;
 }
 
+
+/*----------  slider arrow style  ----------*/
+.section {
+
+    .owl-prev,
+    .owl-next {
+        font-size: 8rem !important;
+        font-weight: 100 !important;
+        color: #AE8F63 !important;
+    }
+
+    
+
+}
+
 .owl-theme .owl-dots .owl-dot:focus {
     outline-color: #fff;
 }
@@ -38,4 +53,31 @@
 .section {
     padding-top: 3rem;
     padding-bottom: 3rem;
+}
+
+
+
+/*----------  min-width: 520px  ----------*/
+@media (min-width: 520px) {
+    .section {
+        .owl-prev,
+        .owl-next {
+            position: absolute;
+            top: 50%;
+            margin-top: -150px;
+        }
+
+        .owl-prev:focus,
+        .owl-next:focus {
+            outline: none;
+        }
+
+        .owl-prev {
+            left: 6.2rem;
+        }
+
+        .owl-next {
+            right: 6.2rem;
+        }
+    }
 }
