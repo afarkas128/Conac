@@ -17,7 +17,7 @@
 
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-    background: #AE8F63;
+    background: #AE8F63 !important;
 }
 
 
@@ -33,6 +33,11 @@
 }
 
 .section.reviews {
+    .owl-theme .owl-dots .owl-dot span {
+        background: none;
+        border: 1px solid #AE8F63;
+    }
+
     .owl-prev:hover,
     .owl-next:hover {
         background: none;
