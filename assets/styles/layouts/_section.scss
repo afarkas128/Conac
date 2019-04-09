@@ -30,10 +30,15 @@
         font-weight: 100 !important;
         color: #AE8F63 !important;
     }
-
-    
-
 }
+
+.section.reviews {
+    .owl-prev:hover,
+    .owl-next:hover {
+        background: none;
+    }
+}
+
 
 .owl-theme .owl-dots .owl-dot:focus {
     outline-color: #fff;
@@ -78,6 +83,32 @@
 
         .owl-next {
             right: 6.2rem;
+        }
+    }
+
+    .camere {
+        .owl-prev,
+        .owl-next {
+            margin-top: -250px;
+        }
+    }
+
+
+    .section.reviews {
+        .owl-prev,
+        .owl-next {
+            margin-top: -150px;
+        }
+
+        .owl-theme .owl-dots {
+            margin-top: 50px;
+        }
+
+        .owl-prev {
+            left: -100px;
+        }
+        .owl-next {
+            right: -100px;
         }
     }
 }
