@@ -20,6 +20,12 @@
   .btn-primary {
     margin-top: -25px;
   }
+
+  .lead:before,
+  .lead:after {
+    content: " '' ";
+    color: #ae8f63;
+}
 }
 
 .owl-theme .owl-dots .owl-dot.active span,
