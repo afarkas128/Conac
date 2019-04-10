@@ -20,11 +20,34 @@
       init: function() {
         // JavaScript to be fired on all pages
         $(".photo-carousel").owlCarousel({
-          stagePadding: 150,
           loop: true,
           center: true,
           margin: 50,
           nav: true,
+          autoHeight: false,
+          responsiveClass: true,
+          responsive: {
+            0: {
+              items: 1,
+              autoplay: true,
+              nav: false
+            },
+            600: {
+              items: 1
+            },
+            1000: {
+              stagePadding: 150,
+              items: 1
+            }
+          }
+        });
+        $(".testimonial-carousel").owlCarousel({
+          loop: true,
+          center: true,
+          margin: 0,
+          nav: true,
+          autoHeight: false,
+          responsiveClass: true,
           autoHeight: false,
           responsive: {
             0: {
@@ -34,25 +57,8 @@
               items: 1
             },
             1000: {
-              items: 1
-            }
-          }
-        });
-        $(".testimonial-carousel").owlCarousel({
-          loop: true,
-          center: true,
-          margin: 50,
-          nav: true,
-          autoHeight: true, 
-          responsive: {
-            0: {
-              items: 1
-            },
-            600: {
-              items: 1
-            },
-            1000: {
-              items: 3
+              items: 3,
+              margin: 50
             }
           }
         });
