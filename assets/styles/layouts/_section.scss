@@ -6,115 +6,134 @@
 @import "sections/apartament";
 @import "sections/contact";
 
-/* Restaurant slider button */
-.owl-item {
 
-    .btn-primary {
-        margin-top: -25px;
+
+/*----------  Main menu  ----------*/
+.navbar-nav {
+    a.nav-item.nav-link {
+        color: #ae8f63 !important;
     }
-
 }
 
+/* Restaurant slider button */
+.owl-item {
+  .btn-primary {
+    margin-top: -25px;
+  }
+}
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: #AE8F63 !important;
+  background: #ae8f63 !important;
 }
-
 
 /*----------  slider arrow style  ----------*/
 .section {
+  .owl-prev,
+  .owl-next {
+    font-size: 2rem !important;
+    font-weight: 100 !important;
+    color: #ae8f63 !important;
+  }
 
-    .owl-prev,
-    .owl-next {
-        font-size: 8rem !important;
-        font-weight: 100 !important;
-        color: #AE8F63 !important;
-    }
+  
+
+  .owl-prev:focus,
+  .owl-next:focus {
+    outline: none;
+  }
 }
+
+.camere {
+    .owl-next {
+        position: absolute;
+      right: 0;
+    }
+  }
 
 .section.reviews {
-    .owl-theme .owl-dots .owl-dot span {
-        background: none;
-        border: 1px solid #AE8F63;
-    }
+  .owl-theme .owl-dots .owl-dot span {
+    background: none;
+    border: 1px solid #ae8f63;
+  }
 
-    .owl-prev:hover,
-    .owl-next:hover {
-        background: none;
-    }
+  .owl-prev:hover,
+  .owl-next:hover {
+    background: none;
+  }
 }
 
-
 .owl-theme .owl-dots .owl-dot:focus {
-    outline-color: #fff;
+  outline-color: #fff;
 }
 
 /* noutati.html */
 .custom-small-font {
-    color: #ae8f63;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 19px;
-    letter-spacing: 2.33px;
+  color: #ae8f63;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 2.33px;
 }
-
 
 /* .section default style */
 .section {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
-
-
 
 /*----------  min-width: 520px  ----------*/
 @media (min-width: 520px) {
-    .section {
-        .owl-prev,
-        .owl-next {
-            position: absolute;
-            top: 50%;
-            margin-top: -150px;
-        }
-
-        .owl-prev:focus,
-        .owl-next:focus {
-            outline: none;
-        }
-
-        .owl-prev {
-            left: 6.2rem;
-        }
-
-        .owl-next {
-            right: 6.2rem;
-        }
+  .section {
+    .owl-prev,
+    .owl-next {
+      font-size: 8rem !important;
+      font-weight: 100 !important;
+      color: #ae8f63 !important;
+      position: absolute;
+      top: 50%;
+      margin-top: -150px;
     }
 
-    .camere {
-        .owl-prev,
-        .owl-next {
-            margin-top: -250px;
-        }
+    .owl-prev {
+      left: 6.2rem;
     }
 
+    .owl-next {
+      right: 6.2rem;
+    }
+  }
 
-    .section.reviews {
-        .owl-prev,
-        .owl-next {
-            margin-top: -150px;
-        }
+  .camere {
+    .owl-prev,
+    .owl-next {
+      margin-top: -250px;
+    }
+  }
 
-        .owl-theme .owl-dots {
-            margin-top: 50px;
-        }
+  .section.reviews {
+    .owl-prev,
+    .owl-next {
+      margin-top: -150px;
+    }
 
-        .owl-prev {
-            left: -100px;
-        }
-        .owl-next {
-            right: -100px;
-        }
+    .owl-theme .owl-dots {
+      margin-top: 50px;
+    }
+
+    .owl-prev {
+      left: -100px;
+    }
+    .owl-next {
+      right: -100px;
+    }
+  }
+}
+
+/*----------  max-width: 520px  ----------*/
+@media (max-width: 520px) {
+    .homepage--book-now,
+    .book-now-closed {
+        display: none;
     }
 }
